@@ -1,0 +1,357 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.container {
+    max-width: 1710px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none; 
+}
+ul {
+    margin-left: 0; 
+    padding-left: 0; 
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.mainbutton {
+    padding-top: 10px;
+}
+
+/* header ************************************************/
+
+.header {
+    background-color: #F8FCFB;
+    font-weight: 500;
+}
+
+.header_top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_logo {
+    display: inline-flex;
+    font-size: 32px;
+    color: #007362;
+    font-family: 'Comfortaa';
+}
+
+.header_logo-text {
+    font-size: 32px;
+    color: #007362;
+}
+
+.header_nav-list {
+    display: flex;
+    white-space: nowrap;
+}
+
+.header_nav-item {
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.header_nav-item:last-child {
+    margin-right: 0;
+}
+
+.header_nav-link {
+    font-weight: 500;
+    line-height: 24px;
+    color: #007362;
+}
+
+.header_top-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header_top-auth {
+    white-space: nowrap;
+    color: #007362;
+    font-size: 20px;
+    background: #FFFFFF;
+    border: 1px solid #007362;
+    border-radius: 6px;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 24px;
+    padding: 0 40px;
+    margin-right: 8px;
+}
+
+.header_top-register {
+    white-space: nowrap;
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #74BEB5;
+    border: 1px solid #007362;
+    border-radius: 6px;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 24px;
+    padding: 0 6px;
+}
+
+
+/* about ********************************************************** */
+
+.about {
+    background-color: #FFFAF1;
+}
+
+.about_ecology {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_ecology-content {
+    margin-right: 15px;
+    max-width: 700px;
+}
+
+.heading_title {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.about_header-2 {
+    color: #007362;
+}
+.info {
+    color: #007362;
+    margin-top: 82px;
+    width: 545px;
+    height: 360px;
+    background-color: #FFFFFF;
+    font-size: 26px;
+    display: flex;
+    padding: 0px 0px 0px 29px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #007362;
+    border-radius: 6px;
+}
+
+.infomainmainabout {
+    color: #007362;
+    margin-top: 82px;
+    width: 545px;
+    height: 360px;
+    background-color: #FFFFFF;
+    font-size: 46px;
+    display: flex;
+    padding: 0px 0px 0px 29px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #007362;
+    border-radius: 6px;
+}
+
+.about_img {
+    display: flex;
+    align-items: center;
+
+}
+
+/* why **************************************************************/
+
+.why {
+    background-color: #F8FCFB;
+}
+
+.why-inner {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.why-content {
+    max-width: 686px;
+}
+
+.why-header {
+    font-size: 60px;
+    color: #022F28;
+}
+
+.why-conetent-1 {
+    font-size: 26px;
+    color: rgba(0, 115, 98, 0.8);
+}
+
+.why-content-2-apperance {
+    background: #FFFFFF;
+    border: 1px solid #97CCC4;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.why-content-2 {
+    display: flex;
+    justify-content: center;
+    color: #97CCC4;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.why-content-2-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+
+.why-conetnt-3 {
+    font-family: "Comfortaa";
+    font-size: 32px;
+    color: #022F28;
+}
+
+.why-img {
+    display: flex;
+    align-items: center;
+}
+
+/* send ******************************************************************/
+
+.contact-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-header {
+    font-weight: 700;
+    font-size: 60px;
+    color: #022F28;
+    display: flex;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+
+.contact-form {
+    background: rgba(151, 204, 196, 0.8);
+    border: 1px solid #007362;
+    height: 550px;
+    width: 880px;
+}
+
+.send-button {
+    width: 220px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #007362;
+    border-radius: 30px;
+    
+}
+
+.send-link {
+    color:#F5F5F5;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.send-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    margin-bottom: 31px;
+}
+
+
+.label-input {
+  font-size: 20px;
+  color: #007362;
+  line-height: 1.5;
+}
+
+.input1 {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.2;
+
+  display: block;
+  height: 63px;
+  width: 430px;
+  border: #F8FCFB;
+  border-radius: 25px;
+}
+
+.description {
+    height: 140px;
+}
+
+.focus-input {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.file-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.file-link {
+    color: #007362;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* footer ************************************************************* */
+
+.footer-container {
+    background-color: #F8FCFB;
+    font-weight: 400;
+    height: 186px;    
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    margin-bottom: 44px;
+    font-size: 32px;
+    font-family: "Comfortaa";
+    color: #022F28;
+}
+
+.footer-bot {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}

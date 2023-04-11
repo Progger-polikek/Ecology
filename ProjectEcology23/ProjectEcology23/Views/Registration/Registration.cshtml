@@ -1,0 +1,106 @@
+﻿@model ProjectEcology23.Models.RegistrationViewModel
+
+<body class="background">
+    <div class="limiter">
+        <div class="container-register">
+            <div class="wrap-login p-l-55 p-r-55 p-t-26 p-b-20">
+                <form  method="post" action="" class="login validate-form">
+                    <span class="login-form-title p-b-20">Регистрация</span>
+
+                    <div class="wrap-input validate-input">
+                        <input type="text"
+                               name="sname"
+                               placeholder="Фамилия"
+                               class="input1" />
+
+                        <span class="focus-input"></span>
+                    </div>
+                    <div class="wrap-input validate-input">
+                        <input type="text"
+                               name="name"
+                               placeholder="Имя"
+                               class="input1" />
+                        <span class="focus-input"></span>
+                    </div>
+                    <div class="wrap-input validate-input">
+                        <input type="text"
+                               name="pname"
+                               placeholder="Отчество"
+                               class="input1" />
+                        <span class="focus-input"></span>
+                    </div>
+
+                    <div class="wrap-input validate-input">
+                        <span class="label-input">Почта</span>
+                        <input type="text"
+                               name="email"
+                               placeholder="Введите свой email"
+                               class="input1" />
+                        <span class="focus-input"></span>
+                    </div>
+
+                    <div class="wrap-input validate-input">
+                        <span class="label-input">Логин</span>
+                        <input type="text"
+                               name="logname"
+                               placeholder="Введите свой логин"
+                               class="input1" />
+                    </div>
+
+                    <div class="wrap-input validate-input">
+                        <span class="label-input">Пароль</span>
+                        <input type="password"
+                               name="pass"
+                               placeholder="Введите свой пароль"
+                               class="input1" />
+                        <span class="focus-input" data-symbol="&#xf190;"></span>
+                    </div>
+                    <div class="wrap-input validate-input m-b-23">
+                        <input type="password"
+                               name="pass2"
+                               placeholder="Введите пароль повторно"
+                               class="input1" />
+                        <span class="focus-input" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <div class="container-login-form-btn">
+                        <div class="wrap-login-form-btn">
+                            <div class="login-form-bgbtn"></div>
+                            <button type="submit" class="login-form-btn">Зарегистрироваться</button>
+                        </div>
+                    </div>
+
+                    <div class="txt1 text-center p-t-15 p-b-20">
+                        <span>регистрация с помощью</span>
+                    </div>
+
+                    <div class="flex-c-m">
+                        <a href="#" class="login-social-item">
+                            <img src="~/img/yandex.svg" alt="" />
+                        </a>
+
+                        <a href="#" class="login-social-item">
+                            <img src="~/img/google.svg" alt="" />
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="dropDownSelect1"></div>
+
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="vendor/select2/select2.min.js"></script>
+
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+</body>

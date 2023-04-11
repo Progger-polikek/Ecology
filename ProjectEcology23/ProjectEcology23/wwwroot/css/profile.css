@@ -1,0 +1,274 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat";
+    background: #FFFAF1;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontent {
+    flex: 1 1 auto;
+}
+
+a {
+    color: #007362;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #007362;
+
+}
+
+.haeder-icon {
+    white-space: nowrap;
+    line-height: 24px;
+    padding: 0 6px;
+}
+
+.header-user {
+    white-space: nowrap;
+    color: #007362;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 29px;
+    padding: 0 40px;
+    margin-right: 8px;
+}
+
+.profile {
+    background: #FFFAF1;
+}
+.buttons {
+    display: flex;
+    color: #007362;
+    font-size: 60px;
+    font-weight: 600;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.buttons-line {
+    margin: 1px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #007362;;
+}
+
+.profile-image {
+    background: #FFFFFF;
+    width: 281px;
+    height: 281px;
+    left: 100px;
+    top: 197px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-info {
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.user-name {
+    font-size: 36px;
+    color: #007362;
+
+}
+
+.user-static {
+    font-size: 24px;
+    color: #97CCC4;
+}
+
+.user-documents {
+    font-size: 28px;
+    color: #007362;
+}
+
+.contacts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.user-contacts {
+    background: #F8FCFB;
+    border-radius: 25px;
+    height: 260px;
+    width: 700px;
+    font-weight: 600;
+    padding-left: 14px;
+}
+
+.static-contacts {
+    font-size: 28px;
+    color: #97CCC4;
+    letter-spacing: -0.015em;
+}
+
+.dynamic-contacts {
+    font-size: 24px;
+    color: #007362;
+    letter-spacing: -0.015em;
+}
+
+.contacts-label {
+    padding-top: 22px;
+}
+
+.hr-line1 {
+    margin: 1px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #97CCC4;;
+    width: 330px;
+
+}
+
+.hr-line2 {
+    margin: 1px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #97CCC4;;
+    width: 260px;
+
+}
+
+.user-edit-profile {
+    font-size: 20px;
+}
+
+
+
+
+/* requests ********************************************* */
+
+.requests {
+    color: #007362;
+}
+
+input {
+    width: 374px;
+}
+
+.filter-box {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+
+.request-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-button {
+    white-space: nowrap;
+    background: #007362;
+    color: #F5F5F5;
+    width: 154px;
+    height: 55px;
+    font-size: 24px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+.filter-button:hover {
+    color: #F5F5F5;;
+}
+
+.filter-label {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.filter-input-label {
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+
+.filter-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 10px;
+    grid-gap: 20px;
+
+}
+
+.table-box {
+    display: flex;
+    justify-content: center;
+}
+
+.profile1 {
+    height: 100%;
+}
+
+table {
+    color: #007362;;
+}
+
+table.iksweb{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #007362;
+}
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background: #F8FCFB;
+	font-weight: normal;
+}
+
+.table-head {
+    font-size: 32px;
+}
+
+tr {
+    font-size: 24px;
+}
+
+.overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 500px;
+}
+
+.footer-padd1 {
+    padding-top: 265px;
+}
+
+.footer-padd2 {
+    padding-top: 140px;
+}
+
+.but-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

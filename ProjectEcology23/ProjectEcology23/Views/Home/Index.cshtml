@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="requests">
+    <div class="filter-box">
+        <div class="filter-left">
+            <p class="filter-label">Фильтр списка заявок</p>
+            <div class="filter-content">
+
+                <div class="">
+
+                    <span class="filter-input-label">Номер заявки</span>
+                    <input style="background: #74BEB5; color: #F5F5F5;" type="text">
+                </div>
+
+                <div class="">
+
+                    <span class="filter-input-label">Фамилия</span>
+                    <input style="background: #74BEB5; color: #F5F5F5;" placeholder="">
+                </div>
+            </div>
+        </div>
+        <div class="filter-right">
+            <div class="request-buttons">
+                <a href="#" class="filter-button">Очистить</a>
+                <a href="#" class="filter-button">Поиск</a>
+            </div>
+
+            <div class="filter-content">
+                <div class="">
+                    <span class="filter-input-label">Статус</span>
+
+                    <input style="background: #74BEB5; color: #F5F5F5;" type="text">
+                </div>
+
+                <div class="">
+                    <span class="filter-input-label">Дата</span>
+
+                    <input style="background: #74BEB5; color: #F5F5F5;" type="text">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="table-box">
+
+        <table class="iksweb">
+            <tbody>
+                <tr class="table-head">
+                    <td>ID</td>
+                    <td>Статус</td>
+                    <td>Дата</td>
+                    <td>Заявление</td>
+                    <td>ФИО</td>
+                    <td>Адрес</td>
+                    <td>Номер</td>
+                    <td>Решение</td>
+                </tr>
+                @foreach (var petition in Model)
+                {
+                    <tr>
+                        <td>@petition.Id</td>
+                        <td>@petition.Status</td>
+                        <td>@petition.Date</td>
+                        <td>@petition.Petition</td>
+                        <td>@petition.FIO</td>
+                        <td>@petition.AddressPetition</td>
+                        <td>@petition.Number</td>
+                        <td>@petition.Result</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<hr />

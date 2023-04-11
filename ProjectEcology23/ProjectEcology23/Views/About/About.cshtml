@@ -1,0 +1,73 @@
+﻿@model ProjectEcology23.Models.PetitionViewModel
+
+@{
+    ViewData["Title"] = "MainAbout";
+}
+
+<div class="wrapper">
+
+    <main class="main">
+        <section class="about">
+            <div class="container">
+                <div class="about-inner">
+                    <div class="about_ecology">
+                        <div class="about_ecology-content">
+                            <div class="heading_title">
+                                <span class="about_header-1">Ваш вклад <br></span>
+                                <span class="about_header-2">в Экологию</span>
+                            </div>
+                            <div style="font-size: 26px;" class="info">
+                                Сайт создан для решения экологических проблем и охраны окружающей среды. Любой житель Нижегородской области может зарегистрироваться на портале и подать заявку об экологическом нарушении.
+                            </div>
+                        </div>
+                        <img src="~/img/image 3.jpg" alt="" class="about_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why">
+            <div class="container">
+                <div class="why-inner">
+                    <div class="why-content">
+                        <p class="why-header">Зачем вам это?</p>
+                        <p class="why-conetent-1">Здесь вы сможете поделиться экологическими нарушениями, с которыми сталкиваетесь , написать нашим экспертам или поделиться своими идеями и опытом решения проблем.</p>
+                        <p class="hueta"></p>
+                        <p class="why-conetnt-3">Вы можете изменить мир, меняя свои привычки !</p>
+                    </div>
+                    <img src="~/img/image 6.jpg" alt="" class="why-img">
+                </div>
+            </div>
+        </section>
+
+        <section align="center" class="contact">
+            <div class="container">
+                <div class="contact-inner">
+                    <div class="contact-content">
+                        <div class="contact-header">
+                            <p style="font-size: 60px; margin-top: 30px; color: #022F28;">Напиши нам:</p>
+                        </div>
+                        <div style="margin: 0 auto; border-radius: 10px; " class="contact-form">
+                            <form align="center" method="post">
+                                <br>
+                                <input style="height: 50px; border-radius: 10px;" name="Name" class="form-group" type="text" placeholder="Имя">
+                                <br>
+                                <input style="height: 50px; border-radius: 10px;" name="Email" class="form-group" type="text" placeholder="Email">
+                                <br>
+                                <input style="height: 200px; border-radius: 10px;" name="AboutPetition" class="form-group" type="text" placeholder="Описание нарушения">
+                                <br>
+                                <input style="height: 50px; border-radius: 10px;" name="AddressPetition" class="form-group" type="text" placeholder="Адрес нарушения">
+                                <br>
+                                <input style="font-size: 26px; margin-top: 10px; border-radius: 30px; background-color: #007362; color: #F5F5F5; " type="submit" />
+                                @*<div>@Model.TestName</div>*@
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<hr />
+

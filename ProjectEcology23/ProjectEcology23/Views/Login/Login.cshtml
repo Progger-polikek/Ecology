@@ -1,0 +1,82 @@
+﻿@model ProjectEcology23.Models.RegistrationViewModel
+
+<body class="background">
+    <div class="limiter">
+        <div class="container-login">
+            <div class="wrap-login p-l-55 p-r-55 p-t-65 p-b-54">
+                <form method="post" action="~/Profile/IndexProfile" class="login validate-form">
+                    <span class="login-form-title p-b-49">Вход</span>
+
+                    <div class="wrap-input validate-input m-b-23">
+                        <span class="label-input">Почта</span>
+                        <input type="text"
+                               name="email"
+                               placeholder="Введите свою почту"
+                               class="input1" />
+                        <span class="focus-input" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <div class="wrap-input validate-input">
+                        <span class="label-input">Пароль</span>
+                        <input type="password"
+                               name="pass"
+                               placeholder="Введите свой пароль"
+                               class="input1" />
+                        <span class="focus-input" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <div class="forgot text-right p-t-8 p-b-31">
+                        <a href="~/Registration/Registration" class="reg-link">Забыли пароль?</a>
+                    </div>
+
+                    <div class="container-login-form-btn">
+                        <div class="wrap-login-form-btn">
+                            <div class="login-form-bgbtn"></div>
+                            <button type="submit" href="~/Profile/IndexProfile" class="login-form-btn">Войти</button>
+                            @*<a  href="~/Profile/IndexProfile" class="reg-link">Войти</a>*@
+                        </div>
+                    </div>
+
+                    <div class="txt1 text-center p-t-54 p-b-20">
+                        <span>или войти с помощью</span>
+                    </div>
+
+                    <div class="flex-c-m">
+                        <a href="#" class="login-social-item">
+                            <img src="~/img/yandex.svg" alt="" />
+                        </a>
+
+                        <a href="#" class="login-social-item">
+                            <img src="~/img/google.svg" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="flex-col-c p-t-10">
+                        <span class="reg-text p-b-17">
+                            Нет аккаунта?
+                            <a href="~/Registration/Registration" class="reg-link">
+                                Зарегистироваться сейчас
+                            </a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="dropDownSelect1"></div>
+
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+</body>

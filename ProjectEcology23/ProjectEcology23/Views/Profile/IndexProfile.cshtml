@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "IndexProfile";
+}
+
+<div class="user-info">
+    <div class="profile-image">
+        <img src="~/img/user-female.svg" alt="">
+        <span><a href="#"><img src="../static/img/camera.svg" alt=""></a></span>
+    </div>
+    <div class="name">
+        <p class="user-name">@Model.fname</p>
+        <p class="user-static">Паспорт</p>
+        <p class="user-documents">@Model.pasport</p>
+    </div>
+
+    <div class="surname">
+        <p class="user-name">@Model.sname</p>
+        <p class="user-static">СНИЛС</p>
+        <p class="user-documents">@Model.snils</p>
+    </div>
+
+    <div class="lastname">
+        <p class="user-name">@Model.pname</p>
+        <p class="user-static">ИНН</p>
+        <p class="user-documents">@Model.inn</p>
+    </div>
+</div>
+
+<div class="contacts-grid">
+
+    <div class=""></div>
+    <div class="user-contacts">
+        <p class="static-contacts contacts-label">Мои данные и контакты: <br></p>
+        <p class="static-contacts">Телефон: <span class="dynamic-contacts">@Model.phone</span></p>
+        <p class="static-contacts">Почта: <span class="dynamic-contacts">@Model.email<br></span></p>
+        <p class="static-contacts">Адрес: <span class="dynamic-contacts">@Model.homeplace</span></p>
+    </div>
+    <div class=""></div>
+    <div class=""></div>
+    <div class=""></div>
+    <div class="user-edit-profile">
+        <a href="#">Редактировать учётную запись</a>
+        <hr class="hr-line1">
+        <a href="#">Удалить учётную запись</a>
+        <hr class="hr-line2">
+    </div>
+
+</div>
+
+
